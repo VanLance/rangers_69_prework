@@ -1,0 +1,128 @@
+<html lang="en">
+<head >
+    <title>Dylan's Portfolio</title>
+<meta cont="width=device-width, initial-scale=1">
+
+</head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body style="background-color:grey;">
+    <div class="w3-container w3-teal">
+        <h1>Dylan's Portfolio</h1>
+    </div>    
+    
+    <h2 style="text-align:center; background-color:purple; font-family:fantasy;" > 
+      Play Outside
+    </h2>
+    
+    <h3 style="text-align:center;">
+         
+    <img src= "C:\Users\VanLance\Coding Temple\portfolio pictures\backpacknc.jpg" 
+    alt="Backpack in NC" style="width:35%" > 
+    
+        <p style="font-family:fantasy; text-align:center">
+        An adventerous, outdoor enthuesiast. <br> I believe the thing that describes me best is my love for the outdoors.
+        I try to experience every hobby I can. Including; rock climbing, backpacking, kayaking, camping and hiking. I've spent
+        alot of time in my van, traveling  to see the country side. Now I want to share those experiences with you.
+        </p>
+    
+    <div  class="w3-content w3-display-container">
+        <img class="mySlides" src="C:\Users\VanLance\Coding Temple\portfolio pictures\zion.jpg" style="width:70%">
+        <img class="mySlides" src="C:\Users\VanLance\Coding Temple\portfolio pictures\AT.jpg" style="width:70%">
+        <img class="mySlides" src="C:\Users\VanLance\Coding Temple\portfolio pictures\hammocks.jpg" style="width:70%">
+        <img class="mySlides" src="C:\Users\VanLance\Coding Temple\portfolio pictures\Katahdin.jpg" style="width:70%">
+      
+
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+
+   
+    
+       
+    <p style="font-family:fantasy; text-align:center">
+         Over the last 5 years, Marina and me, have driven to all but 6 states. 
+         The majority of the time was spent outside, exploring our listed hobbies. 
+         I'm adding several of our pictures hoping you share some of our joy with
+         you. Enjoy :D
+
+    </p>
+    <p style="background-color:green; text-align:center"> 
+        It has been an incredible journey, and I can not believe how diverse our country is. 
+    Here is a list of my favorite place:</p>
+    <dl>
+        <dt>Zion National Park (Utah)</dt>
+        <dd>Favorite Hike of all time (Angels Landing)</dd>
+        <dt>Yosemite National Park (Cali)</dt>
+        <dd>Everything about it</dd>
+        <dt>San Francisco</dt>
+        <dd>Favorite City</dd>
+        <dt>Adorondacks (New York)</dt>
+        <dd>Best hiking out east</dd>
+        <dt>Maine</dt>
+        <dd>A magical state</dd>
+    </ul>
+        
+    </p>
+    
+    <p> 
+      
+    
+    </p>
+<h2>Tell me about you</h2>
+<p>I would like an idea of your interests. 
+    Enter in your name and your choice of the givin vacation areas.</p>
+
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="">
+</form>
+
+<p style="text-align:center;"><b>Nature is calling, but where?</b></p>
+
+
+    <form action="C:\Users\VanLance\Coding Temple\github\index.html">
+            <p>We would all love to getaway more often.<br /> I'm curious which area calls to you.
+            
+            <input type="radio" name="destination" value="Alaska"
+            checked="checked" /> Alaska
+            <input type="radio" name="destination" value="Jamaica" />
+                Jamaica
+            <input type="radio" name="destination" value="Japan" />
+                Japan
+            <input type="radio" name="destination" value="Brazil" />
+            Brazil
+    </p>
+    </form>
+    <p style="background-color: crimson;">Blessed to have a partner in conding!</p>
+    <a href="C:\Users\mcrin\Desktop\Coding Temple\prework ass\homwork\rinas website.html" target="_blank">
+         Check out her portfolio as well</a>
+    <p>If you are interested in following along on our adventures</p>
+    <a href="https://www.facebook.com/dylan.smith.7186896/" target="_blank ">
+         you can friend me on FB!</a>
+        </h3>
+    
+</body>
+</html>
